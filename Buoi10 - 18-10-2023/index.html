@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        Python Course Syllabus
+    </h1>
+    <ul>
+        <li id="python">Welcome to python</li>
+        <li id="python1">Python Fundamemtal</li>
+        <li id="python2">Python Intermmediate</li>
+    </ul>
+
+    <script>
+        let newItem = document.getElementById("python");
+        let lesson1 = document.getElementById("python1")
+        let lesson2 = document.getElementById("python2")
+
+        newItem.innerText = "Welcome to Javascript";
+        lesson1.innerText = "Javascript Fundamemtal"
+        lesson2.innerText = "Javascript Intermmediate"
+
+        console.log(newItem.innerHTML);
+    </script>
+</body>
+
+</html>

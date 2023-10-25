@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        let voiThuNhat = parseFloat(prompt("Nhap cong suat vòi 1(m3/phut): "));
+        let voiThuHai = parseFloat(prompt("Nhap cong suat vòi 2(m3/phut): "));
+
+        let dai = parseFloat(prompt("Chieu dai be (m):  "));
+        let rong = parseFloat(prompt("Chieu rong be (m): "));
+        let cao = parseFloat(prompt("Chieu dai cao (m): "));
+
+        //The tich be nuoc
+        let theTich = dai * rong * cao;
+
+        //Tong cong suat 2 voi nuoc
+        let tongHaiVoi = voiThuNhat + voiThuHai;
+
+        //Thoi gian can lam day be
+        let timeLamDay = theTich / tongHaiVoi;
+
+        //Chuyen thanh gio va phut
+        let gio = Math.floor(timeLamDay / 60);
+        let phut = timeLamDay % 60;
+
+        // alert("Thoi gian lam day be:" + gio + "")
+        alert(`De lam day can ${gio} giờ ${phut} phút.`);
+
+
+
+
+    </script>
+</body>
+
+</html>
