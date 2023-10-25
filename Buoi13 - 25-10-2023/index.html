@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+    <h1>Tinh Lương</h1>
+    <div class="form">
+        <form  action="" method="">
+            <div class="time">
+                <label class="title-lable" for="giolam">Tổng số giờ làm:</label> <br>
+                <input type="number" name="giolam" id="giolam"> <br>
+            </div>
+            <div class="rank">
+                <label class="title-lable" for="capbac">Cấp bậc:</label>
+                <select name="capbac" id="capbac">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+            </div> <br>
+            <button id="btn-submit">Tinh tien thuong</button>
+        </form>
+    </div>
 
     <script src="./script.js"></script>
 </body>
+
 </html>
