@@ -37,7 +37,25 @@ btnAction2.addEventListener("click", () => {
 });
 
 //--------------------------------------------------------------------------//
-//Bai3
+//Bai3 chua xong
+let btnAction3 = document.getElementById('btn3');
+
+btnAction3.addEventListener("click", () => {
+
+    let soHangDauTien = parseInt(document.getElementById("number-1").value);
+    let congSai = parseInt(document.getElementById("number-2").value);
+
+    let i = 0;
+    let output;
+
+    while (i < 10) {
+        output = soHangDauTien + (i * congSai);
+        console.log(output)
+        i++;
+    }
+
+});
+
 
 //--------------------------------------------------------------------------//
 //Bai4
@@ -49,9 +67,10 @@ btnAction4.addEventListener("click", () => {
 
     let i = 1;
     let cuuChuong = 9;
+    let tich;
 
     while (i <= cuuChuong) {
-        let tich = soNguyenN * i;
+        tich = soNguyenN * i;
         console.log(+soNguyenN + " x " + i + " = " + tich + "")
         i++
     }
