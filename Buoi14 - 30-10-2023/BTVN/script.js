@@ -1,15 +1,15 @@
 //Bai 1
-// for (let i = 1500; i <= 2700; i++) {
-//     if (i % 5 === 0 && i % 7 === 0) {
-//         console.log();
-//     }
-// }
+for (let i = 1500; i <= 2700; i++) {
+    if (i % 5 === 0 && i % 7 === 0) {
+        console.log();
+    }
+}
 
 //-----------------------------------------------//
 //Bai 2
-let btnAction1 = document.getElementById('btn-1');
+let btnAction2 = document.getElementById('btn-1');
 
-btnAction1.addEventListener('click', () => {
+btnAction2.addEventListener('click', () => {
 
     let n = parseInt(document.getElementById('soNguyenN').value);
 
@@ -28,9 +28,9 @@ btnAction1.addEventListener('click', () => {
 
 //-----------------------------------------------//
 //Bai3
-let btnAction2 = document.getElementById('btn-2');
+let btnAction3 = document.getElementById('btn-2');
 
-btnAction2.addEventListener('click', () => {
+btnAction3.addEventListener('click', () => {
 
     let chieuCao = parseInt(document.getElementById('chieuCao').value);
 
@@ -42,6 +42,21 @@ btnAction2.addEventListener('click', () => {
         console.log(hang);
     }
 })
+//-----------------------------------------------//
+//Bai4 chua xong
+let btnAction4 = document.getElementById("btn-4");
+
+btnAction4.addEventListener("click", () => {
+
+    let soNguyenDuongN = parseInt(document.getElementById("soNguyenDuongN").value);
+
+    let nString = soNguyenDuongN.toString();
+    let nChuSo = nString.length;
+
+    console.log(+ soNguyenDuongN + " co" + nChuSo + "chu so");
+})
+
+
 
 //-----------------------------------------------//
 //Bai 5
