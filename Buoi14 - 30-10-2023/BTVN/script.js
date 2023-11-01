@@ -44,17 +44,17 @@ btnAction3.addEventListener('click', () => {
 })
 //-----------------------------------------------//
 //Bai4 chua xong
-let btnAction4 = document.getElementById("btn-4");
+// let btnAction4 = document.getElementById("btn-4");
 
-btnAction4.addEventListener("click", () => {
+// btnAction4.addEventListener("click", () => {
 
-    let soNguyenDuongN = parseInt(document.getElementById("soNguyenDuongN").value);
+//     let soNguyenDuongN = parseInt(document.getElementById("soNguyenDuongN").value);
 
-    let nString = soNguyenDuongN.toString();
-    let nChuSo = nString.length;
+//     let nString = soNguyenDuongN.toString();
+//     let nChuSo = nString.length;
 
-    console.log(+ soNguyenDuongN + " co" + nChuSo + "chu so");
-})
+//     console.log(+ soNguyenDuongN + " co" + nChuSo + "chu so");
+// })
 
 
 
