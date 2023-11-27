@@ -32,8 +32,6 @@ class Vehicle {
             return this.triGia * 0.03;
         } else if (this.dungtich > 20) {
             return this.triGia * 0.05;
-        } else {
-            console.log('error');
         }
     }
 
@@ -45,5 +43,5 @@ class Vehicle {
         console.log(`Thue: ${this.thue()}`);
     }
 }
-Vehicle1 = new Vehicle('Nguyen A', 'honda', '50', '12000000');
+Vehicle1 = new Vehicle('Nguyen A', 'honda', '120', '12000000');
 Vehicle1.showInfo();
